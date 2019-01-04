@@ -1,6 +1,8 @@
 # deployonfriday-observability
 Observability and monitoring for the Deploy On Friday series
 
+This application demonstrates observability and monitoring by exposing Spring Boot metrics and custom-made metrics into PCF Metrics on PWS.
+
 # Prerequisites
 1. A JDK installed locally
 2. An account on Pivotal Web Services (PWS): https://run.pivotal.io

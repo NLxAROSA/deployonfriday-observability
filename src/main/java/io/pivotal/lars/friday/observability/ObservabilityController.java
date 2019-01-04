@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.pivotal.lars.friday.observability.metrics.MetricsService;
 
 /**
- * DemoController
+ * ObservabilityController
  */
 @RestController
 public class ObservabilityController {
