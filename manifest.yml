@@ -1,0 +1,9 @@
+---
+applications:
+- name: observability
+  memory: 1024M
+  random-route: true
+  path: target/observability-0.0.1-SNAPSHOT.jar
+  services:
+  - my-metrics-forwarder
+  - new-relic-test
