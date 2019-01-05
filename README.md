@@ -11,5 +11,5 @@ This application demonstrates observability and monitoring by exposing Spring Bo
 # How to use
 1. Check out the project and build it locally using 'mvnw package' (Windows) or './mvnw package' (Linux/OSX)
 2. Login to PWS and your org/space using the CF CLI
-3. 'cf create service metrics-forwarder unlimited my-metrics-forwarder'
+3. 'cf create-service metrics-forwarder unlimited my-metrics-forwarder'
 4. 'cf push'
